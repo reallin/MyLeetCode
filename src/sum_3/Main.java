@@ -37,10 +37,6 @@ public class Main {
 	}
 	public static void printK(int[] array,int start,int end, int num,int k){
 		
-		/*int start = 0;
-		int end = length - 1;*/
-		//boolean flag = false;
-		
 		while(start < end){
 			while(array[start] == array[start+1]){
 				start++;
@@ -59,6 +55,5 @@ public class Main {
 				end--;
 			}
 		}
-		//System.out.println("can't find");
 	}
 }

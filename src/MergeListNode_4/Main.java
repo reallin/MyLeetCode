@@ -2,6 +2,7 @@ package MergeListNode_4;
 /**
  * 
  * @author linxj
+ * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
  *Ë¼Â·£º¶ÑÅÅÐò¡£
  */
 public class Main {
@@ -28,7 +29,7 @@ public class Main {
 		      ListNode(int x) { val = x; }
 		 }
 public static ListNode mergeKLists(ListNode[] lists) {
-	if(lists == null||lists.length<=0){
+	/*if(lists == null||lists.length<=0){
 		return null;
 	}
 	ListNode current = lists[0];
@@ -53,9 +54,9 @@ public static ListNode mergeKLists(ListNode[] lists) {
         			current = current.next;
         			current.next = next;
         			}
-        		/*}else{
+        		}else{
         			current.next = lists[i];
-        		}*/
+        		}
         		
         	//}
         }else{
@@ -63,6 +64,6 @@ public static ListNode mergeKLists(ListNode[] lists) {
         }
         
     }
-        return head;
+        return head;*/
 }
 }
